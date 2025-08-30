@@ -94,7 +94,7 @@ def responder_cometapi(pergunta, chave_api):
         "Content-Type": "application/json"
     }
     payload = {
-        "model": "model": "google/gemini-pro",  # Você pode trocar por outro modelo da CometAPI
+        "model": "google/gemini-pro",  # Você pode trocar por outro modelo da CometAPI
         "messages": [
             {"role": "system", "content": "Você é um especialista em nutrição e treino. Responda de forma clara e prática."},
             {"role": "user", "content": pergunta}
